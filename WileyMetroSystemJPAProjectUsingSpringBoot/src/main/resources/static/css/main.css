@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+wrapper{
+    max-width: 400px;
+    background: green;
+    height: 40px;
+    text-align: right;
+}
+
+.marquee {
+    background: red;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+
+body {
+  background-image: url("metro.jpeg");
+  background-repeat: no-repeat;
+  background-color: black;
+}
